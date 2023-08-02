@@ -1,4 +1,21 @@
-.random-pick-button{
+.feature-container{
     width: 20px;
-    margin-top: 5px;
+    height: 21px;
 }
+
+.random-pick-button{
+    margin-bottom: 10px;
+    width: 20px;
+}
+
+.feature-menu{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background: black;
+    z-index: 100;
+    top: 20px;
+    left: -30px;
+}
+
+
