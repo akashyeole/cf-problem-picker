@@ -2,5 +2,20 @@
     "name": "Codeforces Problem Picker",
     "version": "0.1.0",
     "description": "A random problem picker tool based on tags/ratings.",
-    "manifest_version": 3
+    "manifest_version": 3,
+    "permissions": ["tabs"],
+    "host_permissions": ["https://*.codeforces.com/*"],
+    "content_scripts": [
+        {
+            "matches": ["https://*.codeforces.com/*"],
+            "js": ["contentScript.js"],
+            "css": ["extStyle.css"]
+        }
+    ],
+    "web_accessible_resources":[
+        {
+            "resources": ["assets/shuffle_button.png"],
+            "matches": ["https://*.codeforces.com/*"]
+        }
+    ]
 }
