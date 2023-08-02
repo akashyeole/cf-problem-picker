@@ -1,0 +1,6 @@
+{
+    "name": "Codeforces Problem Picker",
+    "version": "0.1.0",
+    "description": "A random problem picker tool based on tags/ratings.",
+    "manifest_version": 3
+}
