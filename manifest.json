@@ -14,7 +14,7 @@
     ],
     "web_accessible_resources":[
         {
-            "resources": ["assets/shuffle_button.png"],
+            "resources": ["assets/shuffle_button.png", "assets/loading_icon.gif"],
             "matches": ["https://*.codeforces.com/*"]
         }
     ]
